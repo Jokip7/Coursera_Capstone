@@ -1,0 +1,1279 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a22f2beb796e46be86a898edfc5065f2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_a22f2beb796e46be86a898edfc5065f2" ></div>
+        
+</body>
+<script>    
+    
+            var map_a22f2beb796e46be86a898edfc5065f2 = L.map(
+                "map_a22f2beb796e46be86a898edfc5065f2",
+                {
+                    center: [53.4794892, -2.2451148],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_da107d9e4aa64a0dbbb1b8a2d00f98bd = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+            var circle_marker_bb2326fe5cab46acb6f97d4266b377fb = L.circleMarker(
+                [53.437550000000044, -2.2745199999999386],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_87434aa64753432d9f83393a36066080 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_213bf8c44f464982bdc2a02ac33a5047 = $(`<div id="html_213bf8c44f464982bdc2a02ac33a5047" style="width: 100.0%; height: 100.0%;">Chorltonville High</div>`)[0];
+            popup_87434aa64753432d9f83393a36066080.setContent(html_213bf8c44f464982bdc2a02ac33a5047);
+        
+
+        circle_marker_bb2326fe5cab46acb6f97d4266b377fb.bindPopup(popup_87434aa64753432d9f83393a36066080)
+        ;
+
+        
+    
+    
+            var circle_marker_7468d49174414605a2eeabc5911098b8 = L.circleMarker(
+                [53.43793583900003, -2.2690664579999407],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_63587c5f10b741609cd51134c771e76d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db873c247d5b4264b7025105606647ca = $(`<div id="html_db873c247d5b4264b7025105606647ca" style="width: 100.0%; height: 100.0%;">Chorlton-cum-Hardy High</div>`)[0];
+            popup_63587c5f10b741609cd51134c771e76d.setContent(html_db873c247d5b4264b7025105606647ca);
+        
+
+        circle_marker_7468d49174414605a2eeabc5911098b8.bindPopup(popup_63587c5f10b741609cd51134c771e76d)
+        ;
+
+        
+    
+    
+            var circle_marker_0ea791bd66d447a99cbfab31863a620b = L.circleMarker(
+                [53.407110663000026, -2.2581619679999676],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_ad32d4bbcea44d8cbab998b8c01f64af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30e7c60243f24b7e8aca80e2ada704f1 = $(`<div id="html_30e7c60243f24b7e8aca80e2ada704f1" style="width: 100.0%; height: 100.0%;">Northenden High</div>`)[0];
+            popup_ad32d4bbcea44d8cbab998b8c01f64af.setContent(html_30e7c60243f24b7e8aca80e2ada704f1);
+        
+
+        circle_marker_0ea791bd66d447a99cbfab31863a620b.bindPopup(popup_ad32d4bbcea44d8cbab998b8c01f64af)
+        ;
+
+        
+    
+    
+            var circle_marker_3caaea25a38e4627a392143975daabc3 = L.circleMarker(
+                [53.4699124115897, -2.1589393556644447],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_80d9d143a81a406eb41ff099a6c6eae3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b0ca420b4ee04c21b36426e77c2ae39b = $(`<div id="html_b0ca420b4ee04c21b36426e77c2ae39b" style="width: 100.0%; height: 100.0%;">Abbey Hey Low</div>`)[0];
+            popup_80d9d143a81a406eb41ff099a6c6eae3.setContent(html_b0ca420b4ee04c21b36426e77c2ae39b);
+        
+
+        circle_marker_3caaea25a38e4627a392143975daabc3.bindPopup(popup_80d9d143a81a406eb41ff099a6c6eae3)
+        ;
+
+        
+    
+    
+            var circle_marker_4ccb949f4c4546ee8bd610a3d2f4dd22 = L.circleMarker(
+                [53.43870570111662, -2.2138245634045224],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_d516556148be42658ad8b3a4c55f220c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_660028bc545b4ac79897a1969293c657 = $(`<div id="html_660028bc545b4ac79897a1969293c657" style="width: 100.0%; height: 100.0%;">Ladybarn Low</div>`)[0];
+            popup_d516556148be42658ad8b3a4c55f220c.setContent(html_660028bc545b4ac79897a1969293c657);
+        
+
+        circle_marker_4ccb949f4c4546ee8bd610a3d2f4dd22.bindPopup(popup_d516556148be42658ad8b3a4c55f220c)
+        ;
+
+        
+    
+    
+            var circle_marker_2aa9d5aa23444ee2b9e8801b3f777d4a = L.circleMarker(
+                [53.44196059300003, -2.1850252689999365],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_64de5e848d3f445cb868b623d22dd4ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4cc605ed4ed649728dd53fe7c8bc6ca4 = $(`<div id="html_4cc605ed4ed649728dd53fe7c8bc6ca4" style="width: 100.0%; height: 100.0%;">Levenshulme Low</div>`)[0];
+            popup_64de5e848d3f445cb868b623d22dd4ad.setContent(html_4cc605ed4ed649728dd53fe7c8bc6ca4);
+        
+
+        circle_marker_2aa9d5aa23444ee2b9e8801b3f777d4a.bindPopup(popup_64de5e848d3f445cb868b623d22dd4ad)
+        ;
+
+        
+    
+    
+            var circle_marker_c76961ade9f24caf80c54bf167092e2e = L.circleMarker(
+                [53.45722392200008, -2.206326487999945],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_a6a296363c2a4bee94fec4421c0826ba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3eceb47cba974932bd3224b6aa677132 = $(`<div id="html_3eceb47cba974932bd3224b6aa677132" style="width: 100.0%; height: 100.0%;">Longsight Low</div>`)[0];
+            popup_a6a296363c2a4bee94fec4421c0826ba.setContent(html_3eceb47cba974932bd3224b6aa677132);
+        
+
+        circle_marker_c76961ade9f24caf80c54bf167092e2e.bindPopup(popup_a6a296363c2a4bee94fec4421c0826ba)
+        ;
+
+        
+    
+    
+            var circle_marker_0c76610f0a5c4917827b9181528714fe = L.circleMarker(
+                [53.48620000000005, -2.2340899999999806],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_584a1d42f460424398dc6a3487c17130 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21636d72f66c477b81b8a5149fcd72cf = $(`<div id="html_21636d72f66c477b81b8a5149fcd72cf" style="width: 100.0%; height: 100.0%;">Manchester city centre Low</div>`)[0];
+            popup_584a1d42f460424398dc6a3487c17130.setContent(html_21636d72f66c477b81b8a5149fcd72cf);
+        
+
+        circle_marker_0c76610f0a5c4917827b9181528714fe.bindPopup(popup_584a1d42f460424398dc6a3487c17130)
+        ;
+
+        
+    
+    
+            var circle_marker_9285ea083e83487ba0953360a33ed76e = L.circleMarker(
+                [53.42277456506031, -2.2627694618987433],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_98388b2dcfb8459096dc86bbedafacd4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6fd28443280549e480b9c7f4be197118 = $(`<div id="html_6fd28443280549e480b9c7f4be197118" style="width: 100.0%; height: 100.0%;">Merseybank Low</div>`)[0];
+            popup_98388b2dcfb8459096dc86bbedafacd4.setContent(html_6fd28443280549e480b9c7f4be197118);
+        
+
+        circle_marker_9285ea083e83487ba0953360a33ed76e.bindPopup(popup_98388b2dcfb8459096dc86bbedafacd4)
+        ;
+
+        
+    
+    
+            var circle_marker_8d90a60575fe4e41b8bbba97a5578d4b = L.circleMarker(
+                [53.49113380700004, -2.2133181219999756],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_bda84068c6334753a63dc165fb414303 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_095e21b7eea641b1b623cd6b8150cebc = $(`<div id="html_095e21b7eea641b1b623cd6b8150cebc" style="width: 100.0%; height: 100.0%;">Miles Platting Low</div>`)[0];
+            popup_bda84068c6334753a63dc165fb414303.setContent(html_095e21b7eea641b1b623cd6b8150cebc);
+        
+
+        circle_marker_8d90a60575fe4e41b8bbba97a5578d4b.bindPopup(popup_bda84068c6334753a63dc165fb414303)
+        ;
+
+        
+    
+    
+            var circle_marker_df28a6fd1bca4347862723c99c7515f2 = L.circleMarker(
+                [53.51336700402028, -2.2074170644305426],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_278f8ef606cb4a199371f08e68bae02f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1f810a76e7446e6a9604ab616fa3a14 = $(`<div id="html_c1f810a76e7446e6a9604ab616fa3a14" style="width: 100.0%; height: 100.0%;">Moston, Manchester Low</div>`)[0];
+            popup_278f8ef606cb4a199371f08e68bae02f.setContent(html_c1f810a76e7446e6a9604ab616fa3a14);
+        
+
+        circle_marker_df28a6fd1bca4347862723c99c7515f2.bindPopup(popup_278f8ef606cb4a199371f08e68bae02f)
+        ;
+
+        
+    
+    
+            var circle_marker_70ee84e103e048ab81a3e62df65bcec0 = L.circleMarker(
+                [53.48429503780058, -2.2225299394794433],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_07d9658c78ee46d78e60ba63be47d00f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1608a17220dd4367800d7c25193b48d9 = $(`<div id="html_1608a17220dd4367800d7c25193b48d9" style="width: 100.0%; height: 100.0%;">New Islington Low</div>`)[0];
+            popup_07d9658c78ee46d78e60ba63be47d00f.setContent(html_1608a17220dd4367800d7c25193b48d9);
+        
+
+        circle_marker_70ee84e103e048ab81a3e62df65bcec0.bindPopup(popup_07d9658c78ee46d78e60ba63be47d00f)
+        ;
+
+        
+    
+    
+            var circle_marker_e532201822e848738badd6f71973f1a9 = L.circleMarker(
+                [53.51668819000008, -2.1682339959999695],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_c55d1debd863405bab75fde0d45cd76e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a6befdbfacb2465d9e8416a2df48d347 = $(`<div id="html_a6befdbfacb2465d9e8416a2df48d347" style="width: 100.0%; height: 100.0%;">New Moston Low</div>`)[0];
+            popup_c55d1debd863405bab75fde0d45cd76e.setContent(html_a6befdbfacb2465d9e8416a2df48d347);
+        
+
+        circle_marker_e532201822e848738badd6f71973f1a9.bindPopup(popup_c55d1debd863405bab75fde0d45cd76e)
+        ;
+
+        
+    
+    
+            var circle_marker_1b1f92d7e62b400687c25d8f75351b74 = L.circleMarker(
+                [53.38431879500007, -2.280709730999945],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_91637a04dfa5412ab11ef890ab1caf7e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da8a8c24065a49ceb7c92a9f95307495 = $(`<div id="html_da8a8c24065a49ceb7c92a9f95307495" style="width: 100.0%; height: 100.0%;">Newall Green Low</div>`)[0];
+            popup_91637a04dfa5412ab11ef890ab1caf7e.setContent(html_da8a8c24065a49ceb7c92a9f95307495);
+        
+
+        circle_marker_1b1f92d7e62b400687c25d8f75351b74.bindPopup(popup_91637a04dfa5412ab11ef890ab1caf7e)
+        ;
+
+        
+    
+    
+            var circle_marker_efa2579dc35e408b837f72c58146b1ed = L.circleMarker(
+                [53.49640967000005, -2.186769842999979],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_6a12ddac17254c828ca2dc1be87d0fa8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d15f737b495a42d1829395ba0836d3a2 = $(`<div id="html_d15f737b495a42d1829395ba0836d3a2" style="width: 100.0%; height: 100.0%;">Newton Heath Low</div>`)[0];
+            popup_6a12ddac17254c828ca2dc1be87d0fa8.setContent(html_d15f737b495a42d1829395ba0836d3a2);
+        
+
+        circle_marker_efa2579dc35e408b837f72c58146b1ed.bindPopup(popup_6a12ddac17254c828ca2dc1be87d0fa8)
+        ;
+
+        
+    
+    
+            var circle_marker_cb54318650f8492c93beae4c49df4dfe = L.circleMarker(
+                [53.41225600900003, -2.2804738349999525],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_fc1bf906f17749e6a8346e5234032e79 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d95051d6a7c4f25af590bf53ba9c43d = $(`<div id="html_0d95051d6a7c4f25af590bf53ba9c43d" style="width: 100.0%; height: 100.0%;">Northern Moor Low</div>`)[0];
+            popup_fc1bf906f17749e6a8346e5234032e79.setContent(html_0d95051d6a7c4f25af590bf53ba9c43d);
+        
+
+        circle_marker_cb54318650f8492c93beae4c49df4dfe.bindPopup(popup_fc1bf906f17749e6a8346e5234032e79)
+        ;
+
+        
+    
+    
+            var circle_marker_d0568f8a551d460ebb7637dbd2d5c1c7 = L.circleMarker(
+                [53.48288000000008, -2.23521999999997],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_121dcf9f787b42bc92ffc89eb4389fe4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_236e5035113d482bb86f6dddec94981c = $(`<div id="html_236e5035113d482bb86f6dddec94981c" style="width: 100.0%; height: 100.0%;">Northern Quarter (Manchester) Low</div>`)[0];
+            popup_121dcf9f787b42bc92ffc89eb4389fe4.setContent(html_236e5035113d482bb86f6dddec94981c);
+        
+
+        circle_marker_d0568f8a551d460ebb7637dbd2d5c1c7.bindPopup(popup_121dcf9f787b42bc92ffc89eb4389fe4)
+        ;
+
+        
+    
+    
+            var circle_marker_dd28e245585f4537875bf9a78c3be88f = L.circleMarker(
+                [53.43603579300762, -2.237572021965359],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_0eaa78c146a84adb8a616ba311310476 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_978cf51e912c4221a2c7f6bd1e8d52d4 = $(`<div id="html_978cf51e912c4221a2c7f6bd1e8d52d4" style="width: 100.0%; height: 100.0%;">Old Moat Low</div>`)[0];
+            popup_0eaa78c146a84adb8a616ba311310476.setContent(html_978cf51e912c4221a2c7f6bd1e8d52d4);
+        
+
+        circle_marker_dd28e245585f4537875bf9a78c3be88f.bindPopup(popup_0eaa78c146a84adb8a616ba311310476)
+        ;
+
+        
+    
+    
+            var circle_marker_ca6ada020d504fd6be6e8e369d9aa978 = L.circleMarker(
+                [53.47424017000003, -2.171531497999979],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_b3b23b76158d41a3944ee716cf2b2e98 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_791744e91bfe4c8ba076a67520b52cc2 = $(`<div id="html_791744e91bfe4c8ba076a67520b52cc2" style="width: 100.0%; height: 100.0%;">Openshaw Low</div>`)[0];
+            popup_b3b23b76158d41a3944ee716cf2b2e98.setContent(html_791744e91bfe4c8ba076a67520b52cc2);
+        
+
+        circle_marker_ca6ada020d504fd6be6e8e369d9aa978.bindPopup(popup_b3b23b76158d41a3944ee716cf2b2e98)
+        ;
+
+        
+    
+    
+            var circle_marker_f5eeb6240e3c401f9ab4e67d8285d523 = L.circleMarker(
+                [53.37858530250697, -2.2475761410986497],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_ee260fa7cf5d436a9c5164afedcbd52b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2d38a63e5ad482b813a0d8a673c5bcc = $(`<div id="html_f2d38a63e5ad482b813a0d8a673c5bcc" style="width: 100.0%; height: 100.0%;">Peel Hall, Wythenshawe Low</div>`)[0];
+            popup_ee260fa7cf5d436a9c5164afedcbd52b.setContent(html_f2d38a63e5ad482b813a0d8a673c5bcc);
+        
+
+        circle_marker_f5eeb6240e3c401f9ab4e67d8285d523.bindPopup(popup_ee260fa7cf5d436a9c5164afedcbd52b)
+        ;
+
+        
+    
+    
+            var circle_marker_127b62b365fa4b9eb1fa9c7b7ff06aad = L.circleMarker(
+                [53.47895624300003, -2.2452757659999634],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_bba7c29118104780a602f3896c353269 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e8bd18921584413c91fd6a58ed80de2b = $(`<div id="html_e8bd18921584413c91fd6a58ed80de2b" style="width: 100.0%; height: 100.0%;">Ringway, Greater Manchester Low</div>`)[0];
+            popup_bba7c29118104780a602f3896c353269.setContent(html_e8bd18921584413c91fd6a58ed80de2b);
+        
+
+        circle_marker_127b62b365fa4b9eb1fa9c7b7ff06aad.bindPopup(popup_bba7c29118104780a602f3896c353269)
+        ;
+
+        
+    
+    
+            var circle_marker_5db51cdb2f8143eebf91e3a0a7ee2f28 = L.circleMarker(
+                [53.39240027800008, -2.2564486829999737],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_9adfaadf0e754a79aa8f5b2c68708a5d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31e043a376e54efc98d1304454895f60 = $(`<div id="html_31e043a376e54efc98d1304454895f60" style="width: 100.0%; height: 100.0%;">Sharston Low</div>`)[0];
+            popup_9adfaadf0e754a79aa8f5b2c68708a5d.setContent(html_31e043a376e54efc98d1304454895f60);
+        
+
+        circle_marker_5db51cdb2f8143eebf91e3a0a7ee2f28.bindPopup(popup_9adfaadf0e754a79aa8f5b2c68708a5d)
+        ;
+
+        
+    
+    
+            var circle_marker_6620ba0807fb4abbb7ecc2252d314e65 = L.circleMarker(
+                [53.49880429863816, -2.2249798009500483],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_a0d739feef53454eb54cf003f90d1978 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b8f01d71502244ee837336227f1bd377 = $(`<div id="html_b8f01d71502244ee837336227f1bd377" style="width: 100.0%; height: 100.0%;">Smedley, Manchester Low</div>`)[0];
+            popup_a0d739feef53454eb54cf003f90d1978.setContent(html_b8f01d71502244ee837336227f1bd377);
+        
+
+        circle_marker_6620ba0807fb4abbb7ecc2252d314e65.bindPopup(popup_a0d739feef53454eb54cf003f90d1978)
+        ;
+
+        
+    
+    
+            var circle_marker_78ba58b50590443382cddf7d5eb91f81 = L.circleMarker(
+                [53.49542390800008, -2.2447070829999802],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_79feba7361614911a74954e23b498236 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f47595f494e94af8921b3e58a253d192 = $(`<div id="html_f47595f494e94af8921b3e58a253d192" style="width: 100.0%; height: 100.0%;">Strangeways, Manchester Low</div>`)[0];
+            popup_79feba7361614911a74954e23b498236.setContent(html_f47595f494e94af8921b3e58a253d192);
+        
+
+        circle_marker_78ba58b50590443382cddf7d5eb91f81.bindPopup(popup_79feba7361614911a74954e23b498236)
+        ;
+
+        
+    
+    
+            var circle_marker_81569d9170094a4e9b76cf5f872444d4 = L.circleMarker(
+                [53.50751000000008, -2.326719999999966],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_42d75dde14c04a1e9187dd22ca34ae70 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce06a32e0b41415da564f100322bab14 = $(`<div id="html_ce06a32e0b41415da564f100322bab14" style="width: 100.0%; height: 100.0%;">Victoria Park, Manchester Low</div>`)[0];
+            popup_42d75dde14c04a1e9187dd22ca34ae70.setContent(html_ce06a32e0b41415da564f100322bab14);
+        
+
+        circle_marker_81569d9170094a4e9b76cf5f872444d4.bindPopup(popup_42d75dde14c04a1e9187dd22ca34ae70)
+        ;
+
+        
+    
+    
+            var circle_marker_ef7f2728d1ba42bcb7f09dd563305090 = L.circleMarker(
+                [53.46818928300007, -2.20130310899998],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_cf5de4bcd6a74c878037396eaf81f3b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f88f21fd661a4bb49ae9dc639b84d273 = $(`<div id="html_f88f21fd661a4bb49ae9dc639b84d273" style="width: 100.0%; height: 100.0%;">West Gorton Low</div>`)[0];
+            popup_cf5de4bcd6a74c878037396eaf81f3b9.setContent(html_f88f21fd661a4bb49ae9dc639b84d273);
+        
+
+        circle_marker_ef7f2728d1ba42bcb7f09dd563305090.bindPopup(popup_cf5de4bcd6a74c878037396eaf81f3b9)
+        ;
+
+        
+    
+    
+            var circle_marker_438655cb5ee34311985ac981082b9a8d = L.circleMarker(
+                [53.431547557000044, -2.228673350999941],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_35b3c0f8937d46e496259f6b55416b7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96821a127c98459886d2159265fd5247 = $(`<div id="html_96821a127c98459886d2159265fd5247" style="width: 100.0%; height: 100.0%;">Withington Low</div>`)[0];
+            popup_35b3c0f8937d46e496259f6b55416b7f.setContent(html_96821a127c98459886d2159265fd5247);
+        
+
+        circle_marker_438655cb5ee34311985ac981082b9a8d.bindPopup(popup_35b3c0f8937d46e496259f6b55416b7f)
+        ;
+
+        
+    
+    
+            var circle_marker_4309bacb15aa4239b10666075ffbffad = L.circleMarker(
+                [53.372890305000055, -2.2667911269999763],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_81995aafabc8433b8e366b1344cf7d25 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b719c5fc0ad948fa93b0bd163b9e1298 = $(`<div id="html_b719c5fc0ad948fa93b0bd163b9e1298" style="width: 100.0%; height: 100.0%;">Woodhouse Park Low</div>`)[0];
+            popup_81995aafabc8433b8e366b1344cf7d25.setContent(html_b719c5fc0ad948fa93b0bd163b9e1298);
+        
+
+        circle_marker_4309bacb15aa4239b10666075ffbffad.bindPopup(popup_81995aafabc8433b8e366b1344cf7d25)
+        ;
+
+        
+    
+    
+            var circle_marker_9cf14625c9394f79b83b79462df60a81 = L.circleMarker(
+                [53.50968196800005, -2.210485913999946],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_8c6f0da35b0a46d7a1dc56aa8661705e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ddff4ff5f6849ad88b3c41e10e1ead9 = $(`<div id="html_4ddff4ff5f6849ad88b3c41e10e1ead9" style="width: 100.0%; height: 100.0%;">Harpurhey Low</div>`)[0];
+            popup_8c6f0da35b0a46d7a1dc56aa8661705e.setContent(html_4ddff4ff5f6849ad88b3c41e10e1ead9);
+        
+
+        circle_marker_9cf14625c9394f79b83b79462df60a81.bindPopup(popup_8c6f0da35b0a46d7a1dc56aa8661705e)
+        ;
+
+        
+    
+    
+            var circle_marker_69cbb47358614a4197ee281dc36b347f = L.circleMarker(
+                [53.434960000000046, -2.177669999999978],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_984401195f434d2c8c52cba7f50c58f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e0aefa7ebdb40fa93b4ab92f4205f9f = $(`<div id="html_7e0aefa7ebdb40fa93b4ab92f4205f9f" style="width: 100.0%; height: 100.0%;">Highfield Country Park Low</div>`)[0];
+            popup_984401195f434d2c8c52cba7f50c58f4.setContent(html_7e0aefa7ebdb40fa93b4ab92f4205f9f);
+        
+
+        circle_marker_69cbb47358614a4197ee281dc36b347f.bindPopup(popup_984401195f434d2c8c52cba7f50c58f4)
+        ;
+
+        
+    
+    
+            var circle_marker_4fbba28c13b04795b0ad171f482fc298 = L.circleMarker(
+                [53.48898928500006, -2.206103477999932],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_1a274332aa3648debc8c2a250350538b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0062ede895bd49ccb36289af4ea9fc82 = $(`<div id="html_0062ede895bd49ccb36289af4ea9fc82" style="width: 100.0%; height: 100.0%;">Bradford-with-Beswick Low</div>`)[0];
+            popup_1a274332aa3648debc8c2a250350538b.setContent(html_0062ede895bd49ccb36289af4ea9fc82);
+        
+
+        circle_marker_4fbba28c13b04795b0ad171f482fc298.bindPopup(popup_1a274332aa3648debc8c2a250350538b)
+        ;
+
+        
+    
+    
+            var circle_marker_b7eceb9b79b844f6bb39d4e96eb77442 = L.circleMarker(
+                [53.481174699000064, -2.2278693619999785],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_7e8fa38f843c4be484ac2d0b052ba288 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fdede7c887a34faaa650821b94ba9d9c = $(`<div id="html_fdede7c887a34faaa650821b94ba9d9c" style="width: 100.0%; height: 100.0%;">Ancoats Low</div>`)[0];
+            popup_7e8fa38f843c4be484ac2d0b052ba288.setContent(html_fdede7c887a34faaa650821b94ba9d9c);
+        
+
+        circle_marker_b7eceb9b79b844f6bb39d4e96eb77442.bindPopup(popup_7e8fa38f843c4be484ac2d0b052ba288)
+        ;
+
+        
+    
+    
+            var circle_marker_99344e45384349b28835be872f283ebe = L.circleMarker(
+                [53.47182338300007, -2.22013635299993],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_d0d9485d18224df193b5f357c5e48ec3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1acc55abd0d04b83be896a8186885eb4 = $(`<div id="html_1acc55abd0d04b83be896a8186885eb4" style="width: 100.0%; height: 100.0%;">Ardwick Low</div>`)[0];
+            popup_d0d9485d18224df193b5f357c5e48ec3.setContent(html_1acc55abd0d04b83be896a8186885eb4);
+        
+
+        circle_marker_99344e45384349b28835be872f283ebe.bindPopup(popup_d0d9485d18224df193b5f357c5e48ec3)
+        ;
+
+        
+    
+    
+            var circle_marker_553d532b4e6b4c50b824b36cc3e4bb45 = L.circleMarker(
+                [53.471936341613485, -2.224624092480661],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_7d58355a8dab404db5bbbf88129c091b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f40a79a3cd84790ba47e9a144f2120a = $(`<div id="html_8f40a79a3cd84790ba47e9a144f2120a" style="width: 100.0%; height: 100.0%;">Ardwick Green Low</div>`)[0];
+            popup_7d58355a8dab404db5bbbf88129c091b.setContent(html_8f40a79a3cd84790ba47e9a144f2120a);
+        
+
+        circle_marker_553d532b4e6b4c50b824b36cc3e4bb45.bindPopup(popup_7d58355a8dab404db5bbbf88129c091b)
+        ;
+
+        
+    
+    
+            var circle_marker_2af91395209e4e17a61d1571be098c57 = L.circleMarker(
+                [53.39943242800007, -2.2940598779999277],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_a66e66a62ce64105937770becea0f0fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f065474da6f642af9b1d4868c2610c7a = $(`<div id="html_f065474da6f642af9b1d4868c2610c7a" style="width: 100.0%; height: 100.0%;">Baguley Low</div>`)[0];
+            popup_a66e66a62ce64105937770becea0f0fb.setContent(html_f065474da6f642af9b1d4868c2610c7a);
+        
+
+        circle_marker_2af91395209e4e17a61d1571be098c57.bindPopup(popup_a66e66a62ce64105937770becea0f0fb)
+        ;
+
+        
+    
+    
+            var circle_marker_cd09795432cb4b61a7008596f46317a6 = L.circleMarker(
+                [53.426562223000076, -2.266240689999961],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_dd881a8876c4425c981cb4e7eed0697a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df0f82430d384fde828c10f9eb893040 = $(`<div id="html_df0f82430d384fde828c10f9eb893040" style="width: 100.0%; height: 100.0%;">Barlow Moor Low</div>`)[0];
+            popup_dd881a8876c4425c981cb4e7eed0697a.setContent(html_df0f82430d384fde828c10f9eb893040);
+        
+
+        circle_marker_cd09795432cb4b61a7008596f46317a6.bindPopup(popup_dd881a8876c4425c981cb4e7eed0697a)
+        ;
+
+        
+    
+    
+            var circle_marker_90f02772d3cd43ceb730f2b92ed184f5 = L.circleMarker(
+                [53.46306000000004, -2.197179999999946],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_2876d0c639834788af003ecc3121e3ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2256ceb18bb413a99cffa1c7625c2b1 = $(`<div id="html_e2256ceb18bb413a99cffa1c7625c2b1" style="width: 100.0%; height: 100.0%;">Belle Vue, Manchester Low</div>`)[0];
+            popup_2876d0c639834788af003ecc3121e3ca.setContent(html_e2256ceb18bb413a99cffa1c7625c2b1);
+        
+
+        circle_marker_90f02772d3cd43ceb730f2b92ed184f5.bindPopup(popup_2876d0c639834788af003ecc3121e3ca)
+        ;
+
+        
+    
+    
+            var circle_marker_6c79870a165248619e9fe20f56ccd631 = L.circleMarker(
+                [53.38911684300007, -2.2658411719999663],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_12c6b496023746b8bde1cdba282c20d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_57d1dd3d3bcb4f6a8503dd4836be8911 = $(`<div id="html_57d1dd3d3bcb4f6a8503dd4836be8911" style="width: 100.0%; height: 100.0%;">Benchill Low</div>`)[0];
+            popup_12c6b496023746b8bde1cdba282c20d4.setContent(html_57d1dd3d3bcb4f6a8503dd4836be8911);
+        
+
+        circle_marker_6c79870a165248619e9fe20f56ccd631.bindPopup(popup_12c6b496023746b8bde1cdba282c20d4)
+        ;
+
+        
+    
+    
+            var circle_marker_bbb6c928cc1f4bdabcbf9d8cf4bfa12e = L.circleMarker(
+                [53.481160000000045, -2.1976399999999785],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_17a27a3eb6974c72991011cf53045ea9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04cdad0a2f98435c86a80c40a4def6a1 = $(`<div id="html_04cdad0a2f98435c86a80c40a4def6a1" style="width: 100.0%; height: 100.0%;">Beswick, Manchester Low</div>`)[0];
+            popup_17a27a3eb6974c72991011cf53045ea9.setContent(html_04cdad0a2f98435c86a80c40a4def6a1);
+        
+
+        circle_marker_bbb6c928cc1f4bdabcbf9d8cf4bfa12e.bindPopup(popup_17a27a3eb6974c72991011cf53045ea9)
+        ;
+
+        
+    
+    
+            var circle_marker_49c33c9d685f48d0af2ad6073ba6f270 = L.circleMarker(
+                [53.52264226500006, -2.2161008399999673],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_e1d42eaac11345c2a182ef71e8137a23 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_44694fe286004c8cb7353f5c0b105b6f = $(`<div id="html_44694fe286004c8cb7353f5c0b105b6f" style="width: 100.0%; height: 100.0%;">Blackley Low</div>`)[0];
+            popup_e1d42eaac11345c2a182ef71e8137a23.setContent(html_44694fe286004c8cb7353f5c0b105b6f);
+        
+
+        circle_marker_49c33c9d685f48d0af2ad6073ba6f270.bindPopup(popup_e1d42eaac11345c2a182ef71e8137a23)
+        ;
+
+        
+    
+    
+            var circle_marker_4fa4f32065564521888f3f40ce279917 = L.circleMarker(
+                [53.48898928500006, -2.206103477999932],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_9b3b626e40da43ce8f54ddbdef1f2d31 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cadb11a2d6624b70b7471ae39b0664d8 = $(`<div id="html_cadb11a2d6624b70b7471ae39b0664d8" style="width: 100.0%; height: 100.0%;">Bradford, Manchester Low</div>`)[0];
+            popup_9b3b626e40da43ce8f54ddbdef1f2d31.setContent(html_cadb11a2d6624b70b7471ae39b0664d8);
+        
+
+        circle_marker_4fa4f32065564521888f3f40ce279917.bindPopup(popup_9b3b626e40da43ce8f54ddbdef1f2d31)
+        ;
+
+        
+    
+    
+            var circle_marker_e98ea37e13af47e3acbb8b7fc1711abf = L.circleMarker(
+                [53.42622711700005, -2.2036779359999628],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_a640363334594084aa65cae36e6cea8b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_33828749dab7429290b423fe86b5f58b = $(`<div id="html_33828749dab7429290b423fe86b5f58b" style="width: 100.0%; height: 100.0%;">Burnage Low</div>`)[0];
+            popup_a640363334594084aa65cae36e6cea8b.setContent(html_33828749dab7429290b423fe86b5f58b);
+        
+
+        circle_marker_e98ea37e13af47e3acbb8b7fc1711abf.bindPopup(popup_a640363334594084aa65cae36e6cea8b)
+        ;
+
+        
+    
+    
+            var circle_marker_cf237b246d014d37b2f9829a0a7dc315 = L.circleMarker(
+                [53.491423073962316, -2.2408725491620283],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_fd223cdf74134e23a5262583f9b9651e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea6ef67336a043bb89e0cc190ce24ba8 = $(`<div id="html_ea6ef67336a043bb89e0cc190ce24ba8" style="width: 100.0%; height: 100.0%;">Cheetham, Manchester Low</div>`)[0];
+            popup_fd223cdf74134e23a5262583f9b9651e.setContent(html_ea6ef67336a043bb89e0cc190ce24ba8);
+        
+
+        circle_marker_cf237b246d014d37b2f9829a0a7dc315.bindPopup(popup_fd223cdf74134e23a5262583f9b9651e)
+        ;
+
+        
+    
+    
+            var circle_marker_cb4daaef3e4c49e49d96d9ead70053b8 = L.circleMarker(
+                [53.38955400000003, -2.271286940999971],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_ede913866fd44e95846fe127320f58f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a35dad62b02a4973abfba11c37556cf0 = $(`<div id="html_a35dad62b02a4973abfba11c37556cf0" style="width: 100.0%; height: 100.0%;">Wythenshawe Low</div>`)[0];
+            popup_ede913866fd44e95846fe127320f58f3.setContent(html_a35dad62b02a4973abfba11c37556cf0);
+        
+
+        circle_marker_cb4daaef3e4c49e49d96d9ead70053b8.bindPopup(popup_ede913866fd44e95846fe127320f58f3)
+        ;
+
+        
+    
+    
+            var circle_marker_3d14c00d2c1f4f3da2c3eae437b13bc3 = L.circleMarker(
+                [53.44344350700004, -2.226749935999976],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_314090d45f774833ac2cdb35051b753e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8ce42ed71d464d899a617662641de451 = $(`<div id="html_8ce42ed71d464d899a617662641de451" style="width: 100.0%; height: 100.0%;">Fallowfield Low</div>`)[0];
+            popup_314090d45f774833ac2cdb35051b753e.setContent(html_8ce42ed71d464d899a617662641de451);
+        
+
+        circle_marker_3d14c00d2c1f4f3da2c3eae437b13bc3.bindPopup(popup_314090d45f774833ac2cdb35051b753e)
+        ;
+
+        
+    
+    
+            var circle_marker_19861f0d8506454688b78d8579e9996c = L.circleMarker(
+                [53.47220000000004, -2.2357999999999265],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_15f5f8065d754b1ba79396b159f2f6e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a6f47b466e74eea83cf13ad1e783c05 = $(`<div id="html_0a6f47b466e74eea83cf13ad1e783c05" style="width: 100.0%; height: 100.0%;">Circle Square Manchester Low</div>`)[0];
+            popup_15f5f8065d754b1ba79396b159f2f6e7.setContent(html_0a6f47b466e74eea83cf13ad1e783c05);
+        
+
+        circle_marker_19861f0d8506454688b78d8579e9996c.bindPopup(popup_15f5f8065d754b1ba79396b159f2f6e7)
+        ;
+
+        
+    
+    
+            var circle_marker_3ad9a7c990e14fe3aee5675be11d68dc = L.circleMarker(
+                [53.48110004490293, -2.1675949041580793],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_1fb9177c628c4cc0809c52bb279cdccf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca9418a677194e4491858a57b863c1de = $(`<div id="html_ca9418a677194e4491858a57b863c1de" style="width: 100.0%; height: 100.0%;">Clayton, Manchester Low</div>`)[0];
+            popup_1fb9177c628c4cc0809c52bb279cdccf.setContent(html_ca9418a677194e4491858a57b863c1de);
+        
+
+        circle_marker_3ad9a7c990e14fe3aee5675be11d68dc.bindPopup(popup_1fb9177c628c4cc0809c52bb279cdccf)
+        ;
+
+        
+    
+    
+            var circle_marker_b78f90b69c26423f8978b918f1f64b39 = L.circleMarker(
+                [53.496099282000046, -2.221060604999934],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_21c5f119344f455389a079cf9097f48e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_826ee8e7c92f453a82b6ebf936fd36ef = $(`<div id="html_826ee8e7c92f453a82b6ebf936fd36ef" style="width: 100.0%; height: 100.0%;">Collyhurst Low</div>`)[0];
+            popup_21c5f119344f455389a079cf9097f48e.setContent(html_826ee8e7c92f453a82b6ebf936fd36ef);
+        
+
+        circle_marker_b78f90b69c26423f8978b918f1f64b39.bindPopup(popup_21c5f119344f455389a079cf9097f48e)
+        ;
+
+        
+    
+    
+            var circle_marker_5fe17792e4d740b7ad7ef7b896177f97 = L.circleMarker(
+                [53.54482267533388, -2.2221068867124703],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_f91395e6c67e4b9bbe569b6fef141154 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4605789de384496e8aa7ad5bbf9781a7 = $(`<div id="html_4605789de384496e8aa7ad5bbf9781a7" style="width: 100.0%; height: 100.0%;">Great Heaton Low</div>`)[0];
+            popup_f91395e6c67e4b9bbe569b6fef141154.setContent(html_4605789de384496e8aa7ad5bbf9781a7);
+        
+
+        circle_marker_5fe17792e4d740b7ad7ef7b896177f97.bindPopup(popup_f91395e6c67e4b9bbe569b6fef141154)
+        ;
+
+        
+    
+    
+            var circle_marker_221359ef66e3465483f2df05fcda6734 = L.circleMarker(
+                [53.51832037500003, -2.234342581999954],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_7d625b8fcdfa42149bb7c12d3cf1b547 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dcb6a27c78af453f8f2cffb697edc873 = $(`<div id="html_dcb6a27c78af453f8f2cffb697edc873" style="width: 100.0%; height: 100.0%;">Crumpsall Low</div>`)[0];
+            popup_7d625b8fcdfa42149bb7c12d3cf1b547.setContent(html_dcb6a27c78af453f8f2cffb697edc873);
+        
+
+        circle_marker_221359ef66e3465483f2df05fcda6734.bindPopup(popup_7d625b8fcdfa42149bb7c12d3cf1b547)
+        ;
+
+        
+    
+    
+            var circle_marker_7d26c491ceff44bfa25b6c6420948973 = L.circleMarker(
+                [53.459850000000074, -2.221029999999928],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_0406464e1707436da2ea6a24763e06c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66b8b736088c45e4932b3801f177cab0 = $(`<div id="html_66b8b736088c45e4932b3801f177cab0" style="width: 100.0%; height: 100.0%;">Chorlton-on-Medlock Low</div>`)[0];
+            popup_0406464e1707436da2ea6a24763e06c2.setContent(html_66b8b736088c45e4932b3801f177cab0);
+        
+
+        circle_marker_7d26c491ceff44bfa25b6c6420948973.bindPopup(popup_0406464e1707436da2ea6a24763e06c2)
+        ;
+
+        
+    
+    
+            var circle_marker_5aca79126a13425483b2467f6db8a405 = L.circleMarker(
+                [53.47895624300003, -2.2452757659999634],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_653a44a3723349939aba98b52c6e051b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_13060e63af6a4ce5a936b4478756b477 = $(`<div id="html_13060e63af6a4ce5a936b4478756b477" style="width: 100.0%; height: 100.0%;">Glenbrook, Greater Manchester Low</div>`)[0];
+            popup_653a44a3723349939aba98b52c6e051b.setContent(html_13060e63af6a4ce5a936b4478756b477);
+        
+
+        circle_marker_5aca79126a13425483b2467f6db8a405.bindPopup(popup_653a44a3723349939aba98b52c6e051b)
+        ;
+
+        
+    
+    
+            var circle_marker_72bad5d52c444b159b6edc3044fbdc53 = L.circleMarker(
+                [53.46246797900005, -2.181861433999927],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_806d068a45404cea853e75dc416eaf61 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92a685f2e48e48f99a06e30aeb50f517 = $(`<div id="html_92a685f2e48e48f99a06e30aeb50f517" style="width: 100.0%; height: 100.0%;">Gorton Low</div>`)[0];
+            popup_806d068a45404cea853e75dc416eaf61.setContent(html_92a685f2e48e48f99a06e30aeb50f517);
+        
+
+        circle_marker_72bad5d52c444b159b6edc3044fbdc53.bindPopup(popup_806d068a45404cea853e75dc416eaf61)
+        ;
+
+        
+    
+    
+            var circle_marker_dba95d5031214e52834c3af5ff9ce8fd = L.circleMarker(
+                [53.44918565614441, -2.270495460777051],
+                {"bubblingMouseEvents": true, "color": "#80ffb4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#80ffb4", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_28bb3e614b814ac7ba26229701c2a4b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5396cdba9d6c4d6bb62225a61444db70 = $(`<div id="html_5396cdba9d6c4d6bb62225a61444db70" style="width: 100.0%; height: 100.0%;">Alport Town Medium</div>`)[0];
+            popup_28bb3e614b814ac7ba26229701c2a4b5.setContent(html_5396cdba9d6c4d6bb62225a61444db70);
+        
+
+        circle_marker_dba95d5031214e52834c3af5ff9ce8fd.bindPopup(popup_28bb3e614b814ac7ba26229701c2a4b5)
+        ;
+
+        
+    
+    
+            var circle_marker_f451711fd0b34d4284c881c3636f613e = L.circleMarker(
+                [53.45360000000005, -2.2638699999999403],
+                {"bubblingMouseEvents": true, "color": "#80ffb4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#80ffb4", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_97b1f6c7b7d34988bcf101f0a525d905 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0411650302d47e48a15600f10d6d6c2 = $(`<div id="html_a0411650302d47e48a15600f10d6d6c2" style="width: 100.0%; height: 100.0%;">Whalley Range, Manchester Medium</div>`)[0];
+            popup_97b1f6c7b7d34988bcf101f0a525d905.setContent(html_a0411650302d47e48a15600f10d6d6c2);
+        
+
+        circle_marker_f451711fd0b34d4284c881c3636f613e.bindPopup(popup_97b1f6c7b7d34988bcf101f0a525d905)
+        ;
+
+        
+    
+    
+            var circle_marker_9932c67f9f734b00aa1a2fbaa5bd1d75 = L.circleMarker(
+                [53.467052455000044, -2.246985352999957],
+                {"bubblingMouseEvents": true, "color": "#80ffb4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#80ffb4", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_bccbb93dc2594a44ba7c7305a5d0e207 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c8ee605b68d4d9e9023e9bf23859479 = $(`<div id="html_5c8ee605b68d4d9e9023e9bf23859479" style="width: 100.0%; height: 100.0%;">Hulme Medium</div>`)[0];
+            popup_bccbb93dc2594a44ba7c7305a5d0e207.setContent(html_5c8ee605b68d4d9e9023e9bf23859479);
+        
+
+        circle_marker_9932c67f9f734b00aa1a2fbaa5bd1d75.bindPopup(popup_bccbb93dc2594a44ba7c7305a5d0e207)
+        ;
+
+        
+    
+    
+            var circle_marker_b340c83ec98b491fa8f1ffdbcfc9b8a5 = L.circleMarker(
+                [53.476060000000075, -2.2521899999999277],
+                {"bubblingMouseEvents": true, "color": "#80ffb4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#80ffb4", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_6d6fd6c33d1545b1a6d0a4f3d8a44b0b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_22ac265680f24e83826eb113bdced7f9 = $(`<div id="html_22ac265680f24e83826eb113bdced7f9" style="width: 100.0%; height: 100.0%;">Castlefield Medium</div>`)[0];
+            popup_6d6fd6c33d1545b1a6d0a4f3d8a44b0b.setContent(html_22ac265680f24e83826eb113bdced7f9);
+        
+
+        circle_marker_b340c83ec98b491fa8f1ffdbcfc9b8a5.bindPopup(popup_6d6fd6c33d1545b1a6d0a4f3d8a44b0b)
+        ;
+
+        
+    
+    
+            var circle_marker_a118e3f55ec242d6a993e219233e1d1a = L.circleMarker(
+                [53.480193499323754, -2.249158714227249],
+                {"bubblingMouseEvents": true, "color": "#80ffb4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#80ffb4", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_7c79995130f7408eba90e4ad9c4f1fc2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7413351ac9744826b63433da0ff6656f = $(`<div id="html_7413351ac9744826b63433da0ff6656f" style="width: 100.0%; height: 100.0%;">Spinningfields Medium</div>`)[0];
+            popup_7c79995130f7408eba90e4ad9c4f1fc2.setContent(html_7413351ac9744826b63433da0ff6656f);
+        
+
+        circle_marker_a118e3f55ec242d6a993e219233e1d1a.bindPopup(popup_7c79995130f7408eba90e4ad9c4f1fc2)
+        ;
+
+        
+    
+    
+            var circle_marker_b56e281782a940f3bfd46385fd7635bd = L.circleMarker(
+                [53.417494772000055, -2.2303884149999362],
+                {"bubblingMouseEvents": true, "color": "#80ffb4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#80ffb4", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_ae51ae183b9c43078ded7a63647e007f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99937e653c4f49f9b0ed11de9d2e3f84 = $(`<div id="html_99937e653c4f49f9b0ed11de9d2e3f84" style="width: 100.0%; height: 100.0%;">Didsbury Medium</div>`)[0];
+            popup_ae51ae183b9c43078ded7a63647e007f.setContent(html_99937e653c4f49f9b0ed11de9d2e3f84);
+        
+
+        circle_marker_b56e281782a940f3bfd46385fd7635bd.bindPopup(popup_ae51ae183b9c43078ded7a63647e007f)
+        ;
+
+        
+    
+    
+            var circle_marker_db95cdd695d84a8398d63bb2bb2d2214 = L.circleMarker(
+                [53.41638000000006, -2.2203099999999267],
+                {"bubblingMouseEvents": true, "color": "#80ffb4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#80ffb4", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_f71181f98f134222a723daa14b591aa7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_14e3dbac0b244561a111b2325f142bcf = $(`<div id="html_14e3dbac0b244561a111b2325f142bcf" style="width: 100.0%; height: 100.0%;">Parrs Wood Medium</div>`)[0];
+            popup_f71181f98f134222a723daa14b591aa7.setContent(html_14e3dbac0b244561a111b2325f142bcf);
+        
+
+        circle_marker_db95cdd695d84a8398d63bb2bb2d2214.bindPopup(popup_f71181f98f134222a723daa14b591aa7)
+        ;
+
+        
+    
+    
+            var circle_marker_dbd4f0a228204f89b9d8dfc665a79b1a = L.circleMarker(
+                [53.459013807000076, -2.244017087999964],
+                {"bubblingMouseEvents": true, "color": "#80ffb4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#80ffb4", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_27c0d3e5d5334e8d9dae87a2dd9bf3c3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00eb5021456c410083dc93f4d67d2aba = $(`<div id="html_00eb5021456c410083dc93f4d67d2aba" style="width: 100.0%; height: 100.0%;">Moss Side Medium</div>`)[0];
+            popup_27c0d3e5d5334e8d9dae87a2dd9bf3c3.setContent(html_00eb5021456c410083dc93f4d67d2aba);
+        
+
+        circle_marker_dbd4f0a228204f89b9d8dfc665a79b1a.bindPopup(popup_27c0d3e5d5334e8d9dae87a2dd9bf3c3)
+        ;
+
+        
+    
+    
+            var circle_marker_0411fa159e4a44c9897133e8dbc7c178 = L.circleMarker(
+                [53.46218748919219, -2.2411894175543687],
+                {"bubblingMouseEvents": true, "color": "#80ffb4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#80ffb4", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_e5ce40c0d2bd4436afded57ab598e97a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f0629c8d17ef4015977aacfa07432df5 = $(`<div id="html_f0629c8d17ef4015977aacfa07432df5" style="width: 100.0%; height: 100.0%;">Greenheys, Manchester Medium</div>`)[0];
+            popup_e5ce40c0d2bd4436afded57ab598e97a.setContent(html_f0629c8d17ef4015977aacfa07432df5);
+        
+
+        circle_marker_0411fa159e4a44c9897133e8dbc7c178.bindPopup(popup_e5ce40c0d2bd4436afded57ab598e97a)
+        ;
+
+        
+    
+    
+            var circle_marker_01c0cf4bca4e4ca989b21ad2d9a44fb5 = L.circleMarker(
+                [53.47767835118885, -2.251115690388525],
+                {"bubblingMouseEvents": true, "color": "#80ffb4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#80ffb4", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_90a181f830374a40a6c7fee5ee38054a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23f649fabb144e06a242a7a39daf30dd = $(`<div id="html_23f649fabb144e06a242a7a39daf30dd" style="width: 100.0%; height: 100.0%;">St John&#39;s, Manchester Medium</div>`)[0];
+            popup_90a181f830374a40a6c7fee5ee38054a.setContent(html_23f649fabb144e06a242a7a39daf30dd);
+        
+
+        circle_marker_01c0cf4bca4e4ca989b21ad2d9a44fb5.bindPopup(popup_90a181f830374a40a6c7fee5ee38054a)
+        ;
+
+        
+    
+    
+            var circle_marker_6ec0dd473f8b4840b92916fee39938c1 = L.circleMarker(
+                [53.42724000000004, -2.2396399999999517],
+                {"bubblingMouseEvents": true, "color": "#80ffb4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#80ffb4", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a22f2beb796e46be86a898edfc5065f2);
+        
+    
+        var popup_63998be208d94b0fbb6472f34b1722c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_840980c5d6284ec3a6ba5d426696062f = $(`<div id="html_840980c5d6284ec3a6ba5d426696062f" style="width: 100.0%; height: 100.0%;">Green Quarter Medium</div>`)[0];
+            popup_63998be208d94b0fbb6472f34b1722c0.setContent(html_840980c5d6284ec3a6ba5d426696062f);
+        
+
+        circle_marker_6ec0dd473f8b4840b92916fee39938c1.bindPopup(popup_63998be208d94b0fbb6472f34b1722c0)
+        ;
+
+        
+    
+</script>
